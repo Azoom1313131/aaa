@@ -13,7 +13,7 @@ end)
 local Section = Tab:NewSection("Section Rescue TP")
 
 Section:NewButton("Tp", "ButtonInfo", function()
-    game:GetService("Workspace").game.humanoids.player.my_fane.HumanoidRootPart.CFrame = game:GetService("Workspace").game.debris.other.Rescue
+    game:GetService("Workspace").game.humanoids.player.my_fane.HumanoidRootPart.CFrame = game:GetService("Workspace").game.debris.other.Rescue.CFrame
 end)
 
 local Tab = Window:NewTab("Misc")
