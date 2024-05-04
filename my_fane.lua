@@ -12,8 +12,10 @@ end)
 
 local Section = Tab:NewSection("Section Rescue TP")
 
-Section:NewButton("Tp", "ButtonInfo", function()
-    game:GetService("Workspace").game.humanoids.player.my_fane.HumanoidRootPart.CFrame = game:GetService("Workspace").game.debris.other.Rescue.CFrame
+Section:NewButton("Rescue TP", "ButtonInfo", function()
+    if RescueHL then 
+     game:GetService("Workspace").game.humanoids.player.my_fane.HumanoidRootPart.CFrame = game:GetService("Workspace").game.debris.other.Rescue.CFrame
+    end
 end)
 
 local Tab = Window:NewTab("Misc")
@@ -74,4 +76,8 @@ UIS.InputBegan:Connect(function(input)
        Teleport(Mouse.Hit.p)
    end
 end)
+end)
+
+Section:NewButton("ButtonText", "ButtonInfo", function()
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Azoom1313131/br/main/Dexv5.lua"))()
 end)
