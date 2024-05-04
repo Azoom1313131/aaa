@@ -78,6 +78,6 @@ UIS.InputBegan:Connect(function(input)
 end)
 end)
 
-Section:NewButton("ButtonText", "ButtonInfo", function()
+Section:NewButton("Dex V5", "Dex V5", function()
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Azoom1313131/br/main/Dexv5.lua"))()
 end)
