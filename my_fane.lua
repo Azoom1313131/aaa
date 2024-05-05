@@ -81,3 +81,11 @@ end)
 Section:NewButton("Dex V5", "Dex V5", function()
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Azoom1313131/br/main/Dexv5.lua"))()
 end)
+
+Section:NewButton("Slap Battle", "Slap Battle", function()
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"))()
+end)
+
+Section:NewButton("Slap Royale", "Slap Royale", function()
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/cheesynob39/SB-SR/main/Slap_Royale.lua"))()
+end)
