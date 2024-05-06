@@ -14,7 +14,7 @@ local Section = Tab:NewSection("Section Rescue TP")
 
 Section:NewButton("Rescue TP", "ButtonInfo", function()
     if RescueHL then 
-     game:GetService("Workspace").game.humanoids.player.my_fane.HumanoidRootPart.CFrame = game:GetService("Workspace").game.debris.other.Rescue.CFrame
+      game:GetService("Workspace").game.humanoids.player.my_fane.HumanoidRootPart.CFrame = game:GetService("Workspace").game.debris.other.Rescue.CFrame
     end
 end)
 
@@ -87,5 +87,5 @@ Section:NewButton("Slap Battle", "Slap Battle", function()
 end)
 
 Section:NewButton("Slap Royale", "Slap Royale", function()
-    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/cheesynob39/SB-SR/main/Slap_Royale.lua"))()
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Voxul/VoxulHub/main/loader.lua%22"))()
 end)
